@@ -63,6 +63,11 @@ body {
     border-radius: 0.5rem;
     background-color: $btn-color;
     font-size: 0.875rem;
+    font-weight: 700;
+    &:hover {
+      background-color: $offset-color;
+      color: $bg-color;
+    }
   }
 }
 
