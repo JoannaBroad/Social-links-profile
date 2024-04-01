@@ -28,7 +28,6 @@ body {
   color: $font-color;
   font-family: Inter;
   text-align: center;
-  font-size: 0.875rem;
   img {
     width: 5.5rem;
     height: 5.5rem;
@@ -46,11 +45,13 @@ body {
       color: $offset-color;
       font-weight: 700;
       line-height: 0;
+      font-size: 0.875rem;
     }
   }
   .bio {
     font-weight: 400;
     line-height: 150%;
+    font-size: 0.875rem;
   }
   .button {
     display: flex;
@@ -61,6 +62,7 @@ body {
     align-self: stretch;
     border-radius: 0.5rem;
     background-color: $btn-color;
+    font-size: 0.875rem;
   }
 }
 
